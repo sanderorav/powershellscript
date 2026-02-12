@@ -1,0 +1,4 @@
+Get-Service ALG
+Get-Service App*
+Get-Service A*
+Get-Service A???????
