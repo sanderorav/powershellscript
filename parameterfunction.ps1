@@ -1,4 +1,4 @@
-function Get-ServiceCount {
+function countservice {
 
     param (
         [ValidateSet("Running","Stopped")]
@@ -12,5 +12,5 @@ function Get-ServiceCount {
     Write-Host "Total services in $Status state: $count" -ForegroundColor Cyan
 }
 
-Get-ServiceCount -Status Running
-Get-ServiceCount -Status Stopped
+countservice -Status Running
+countservice -Status Stopped
